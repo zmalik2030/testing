@@ -1,0 +1,138 @@
+@media (max-width: 1025px){
+    body .banner .shape{
+        width: 56%;
+    }
+    .sec_four .contain .sec_heading{
+        width: 64%;
+    }
+    .sec_three .col .inner{
+        height: 100%;
+    }
+    .sec_two .frst-q {
+        width: 100%;
+    }
+}
+@media (max-width: 991px){}
+@media (max-width: 768px){}
+@media (max-width: 512px){
+    body .banner{
+        padding-bottom: 0;
+        height: 497px;
+    }
+    .banner .shape-2{
+        display: none !important;
+    }
+    body .banner .shape {
+        right: -183px;
+        width: 86%;
+    }
+    .banner .contain .content {
+        width: 100%;
+    }
+    .banner .contain h1 {
+        font-size: 42px;
+    }
+    nav > div #cta {
+        display: none !important;
+    }
+    body .sec_heading h2 {
+        font-size: 32px;
+    }
+    .sec_two .contain .option ul li {
+        position: relative;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .sec_two .frst-q {
+        width: 100%;
+    }
+    .sec_two  .contain .frst-q  .flex .col {
+        width: calc(100%/2);
+        flex: unset;
+    }
+    .sec_three .contain .sec_heading {
+        width: 100%;
+    }
+    .sec_three .contain .col {
+        width: 100%;
+    }
+    .sec_four .contain .sec_heading {
+        width: 88%;
+    }
+    .sec_five .contain .col {
+        width: calc(100%/2);
+    }
+    .sec_five .contain .sec_heading {
+        width: 100%;
+    }
+    .sec_six .contain .col1 {
+        width: 100%;
+    }
+    .sec_six .contain .col1 .image{
+        width: 40%;
+    margin: 0 auto;
+    }
+    .sec_six .contain .col2 {
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 13px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .sec_cta .contain .col1 {
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+    }
+    .sec_cta .contain .col2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    body footer{
+        padding: 1rem 0;
+    }
+    footer .contain .flex .col1 {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 26px;
+    }
+    footer .contain .flex .col2 {
+        width: 100%;
+        padding-left: 0;
+        position: relative;
+    }
+    footer .contain .flex .col2::before {
+        height: 0.5px;
+        width: 100%;
+    }
+    footer .contain .flex .col2 .content{
+        margin-top: 26px;
+    }
+    footer .contain .copyright {
+    margin-top: 28px;
+}
+header .mobile-logo{
+    display: block !important;
+  }
+  header .desk-logo{
+    display: none !important;
+  }
+  header .contain .logo{
+    width: 3rem;
+    height: 7rem;
+  }
+  .banner .contain .rate_it ul {
+    display: flex;
+    width: 46%;
+  }
+  .sec_two .frst-q .cta {
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+.frst-q .inner_form {
+    margin-top: 65px !important;
+}
+}
